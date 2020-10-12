@@ -78,3 +78,18 @@ p.lead {
     }
   }
 }
+
+
+.interest-item-wrapper{
+padding-left: 0 !important;
+}
+.interest-item {
+  display: flex;
+  align-items: flex-start;
+}
+.interest-item > img{
+  width: 2rem;
+}
+
+
+    
