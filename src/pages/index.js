@@ -947,21 +947,20 @@ const IndexPage = () => (
                   <b>Roles and Responsibilities:</b>
                   <ul>
                     <li>
-                      Building reusable responsive UI components using REACT and
-                      Styled Components. Integration in container components (
-                      Storybook ). Type checking using TYPESCRIPT.
+                      Building highly scalable responsive and interactive web
+                      portal using JavaScript and CSS.
                     </li>
                     <li>
-                      Unit test for the components using JEST. Reviewing the
-                      code and participation in design discussions.
+                      Integrating Google Maps API and customization as per
+                      business requirement.
                     </li>
                     <li>
-                      Provide support for Adoption teams, Participation in Code
-                      reviews and Design discussions.
+                      Used Moment JS for date component which is used to sync
+                      data for different time zones.
                     </li>
                     <li>
-                      Consulting and troubleshooting support for all the
-                      adoption teams in the department.
+                      Responsible for timeline views for the work orders using
+                      Vis JS.
                     </li>
                   </ul>
                 </p>
