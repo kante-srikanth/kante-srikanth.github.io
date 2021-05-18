@@ -71,12 +71,17 @@ p.lead {
 }
 
 .dev-icons {
-  font-size: 3rem;
+  font-size: 4rem;
   .list-inline-item i {
     &:hover {
       color: $primary;
     }
   }
+}
+
+.date_grey_bold {
+  color: #ccc;
+  font-weight: bold;
 }
 
 
@@ -91,5 +96,22 @@ padding-left: 0 !important;
   width: 2rem;
 }
 
+.list-inline-item img {
+  width: 70px;
+  height: 70px;
+}
+
+.list-inline-item-80 img {
+  width: 80px;
+  height: 80px;
+}
+.list-inline-item-90 img{
+  width: 90px;
+  height: 90px;
+}
+.list-inline-item-100 img{
+  width: 100px;
+  height: 100px;
+}
 
     

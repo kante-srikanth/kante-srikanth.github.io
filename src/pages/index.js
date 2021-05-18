@@ -7,6 +7,16 @@ import surfing from '../assets/images/browsing.svg';
 import music from '../assets/images/music-player.svg';
 import gadget from '../assets/images/tablet.svg';
 import travel from '../assets/images/trekking.svg';
+import bootstrap from '../assets/img/bootstrap.svg';
+import docker from '../assets/img/docker.svg';
+import express from '../assets/img/express.svg';
+import grunt from '../assets/img/grunt.svg';
+import jasmine from '../assets/img/jasmine.svg';
+import jquery from '../assets/img/jquery.svg';
+import knockout from '../assets/img/knockout.svg';
+import redux from '../assets/img/redux.svg';
+import selenium from '../assets/img/selenium.svg';
+import webpack from '../assets/img/webpack.svg';
 
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
@@ -29,11 +39,15 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            Passionate Front End Developer with 3+ years of experience in
-            building and maintaining cross browser responsive WCAG compliant
-            applications in CRM industry and core PLATFORM software in
-            collaborative environments. Currently working on REACT-TS-JEST open
-            source project.
+            A Passionate Front End Developer with nearly 4 years of IT
+            experience in building web applications for various industries such
+            as CRM, Healthcare, Insurance & comms. Expertise in developing
+            scalable, responsive, accessible and cross browser web apps using
+            HTML5, CSS, JavaScript, Typescript, Jest and using view libraries
+            like React JS. Flexible and versatile to adapt to new environments
+            and technologies. Strong communication, interpersonal, learning and
+            organizing skills matched with the ability to manage the stress and
+            time effectively. Worked under scrum agile methodology.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -335,7 +349,7 @@ const IndexPage = () => (
                 >
                   <path
                     d="M16.214 6.762l-.075.391c-.116.741-.074.953.244 1.228l.307.254l-.318 1.418c-.19.846-.423 1.555-.571 1.788c-.127.201-.275.497-.307.656c-.053.19-.233.381-.508.55c-.243.138-.72.508-1.058.805c-.27.243-.456.392-.557.456l-.33.261a1.4 1.4 0 0 0-.189.411c-.023.107-.01.178.024.23c.033.05.09.085.168.107a.954.954 0 0 0 .282.023a3 3 0 0 0 .632-.112c.07-.019.125-.037.173-.053c.074-.091.245-.263.548-.562c.804-.793 1.111-1.227.794-1.11c-.117.042-.064-.064.137-.276c.424-.413.667-1.037 1.175-2.994c.402-1.545.402-1.567.698-1.567c.139 0 .532.024.532.024V6.762h-.902zm3.839 3.165c-.064 0-.17.096-.233.202c-.116.19.021.306 1.767 1.396c1.037.657 1.873 1.217 1.852 1.26c-.021.031-.868.582-1.883 1.217c-1.842 1.142-1.852 1.153-1.683 1.386c.212.275 0 .37 2.391-1.122L24 13.155v-.836l-1.937-1.196c-1.047-.656-1.957-1.185-2.01-1.196zm-16.085.117c-.053 0-.963.54-2.01 1.185L0 12.425v.836l1.947 1.217c1.08.666 1.99 1.217 2.032 1.217c.042 0 .127-.096.212-.212c.127-.201.02-.286-1.768-1.418C.72 12.996.54 12.848.71 12.732c.106-.074.91-.572 1.778-1.111c1.979-1.217 1.873-1.133 1.714-1.387c-.063-.105-.17-.2-.233-.19zm8.684.023c-.292-.002-.92.443-2.8 1.978c-.081.193-.088.326-.051.412c.024.059.068.1.129.13c.06.03.138.048.224.055c.171.015.373-.012.536-.044l.11-.025a.386.386 0 0 1 .144-.118c.116-.064.603-.508 1.09-.984c.857-.868 1.058-1.26.709-1.387a.24.24 0 0 0-.09-.017zm2.196.603c-.257.007-.72.305-1.513.938c-.398.323-.65.497-.785.533l-.524.414c-.197.36-.226.583-.174.706a.25.25 0 0 0 .138.134a.644.644 0 0 0 .24.045a2.18 2.18 0 0 0 .58-.085a3.466 3.466 0 0 0 .291-.092l.029-.012l.053-.028c.1-.129.33-.372.618-.652c.91-.878 1.375-1.502 1.28-1.735c-.043-.113-.117-.17-.233-.166zm-2.424 1.08c-.074.008-.24.136-.539.398c-.432.382-.903.602-1.066.504a3.97 3.97 0 0 1-.114.024c-.166.033-.373.06-.558.045a.708.708 0 0 1-.252-.063a.337.337 0 0 1-.168-.17c-.037-.09-.037-.202.005-.345l-.65.534l-1.471 1.217v1.973l4.82-3.797a.41.41 0 0 1 .016-.123c.037-.134.035-.202-.023-.196zm2.074.639c-.073 0-.195.103-.39.31c-.265.283-.682.557-.903.613l-.034.018a2.191 2.191 0 0 1-.11.042c-.06.02-.138.044-.228.068c-.18.049-.404.094-.604.089a.732.732 0 0 1-.275-.054a.344.344 0 0 1-.184-.18c-.058-.139-.035-.334.092-.611L7.61 16.033v1.205h1.868l3.962-3.112c.103-.114.258-.27.467-.465c.56-.519.687-.698.687-.963c0-.206-.023-.31-.096-.31zm.943 1.95l-.339.338c-.19.18-.529.402-.761.497l-.046.02l-.003.005l-.01.01c-.009.007-.013.008-.02.011a3.432 3.432 0 0 1-.282.093a3.058 3.058 0 0 1-.65.115a1.035 1.035 0 0 1-.31-.027a.364.364 0 0 1-.218-.144c-.048-.074-.062-.173-.035-.295a1.11 1.11 0 0 1 .095-.25l-3.197 2.526h4.252l.508-.582c.698-.814 1.016-1.396 1.016-1.894z"
-                    fill="#626262"
+                    fill="#fff"
                   />
                   <rect
                     x="0"
@@ -627,14 +641,105 @@ const IndexPage = () => (
                 </svg>
               </a>
             </li>
+            <li className="list-inline-item bootstrap">
+              <a
+                href="https://getbootstrap.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={bootstrap} className="item" alt="Bootstrap" />
+              </a>
+            </li>
+            <li className="list-inline-item express">
+              <a
+                href="https://expressjs.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={express} className="item" alt="Express" />
+              </a>
+            </li>
+            <li className="list-inline-item grunt">
+              <a
+                href="https://gruntjs.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={grunt} className="item" alt="Grunt" />
+              </a>
+            </li>
+            <li className="list-inline-item jasmine">
+              <a
+                href="https://jasmine.github.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={jasmine} className="item" alt="Jasmine" />
+              </a>
+            </li>
+
+            <li className="list-inline-item list-inline-item-100 knockout">
+              <a
+                href="https://knockoutjs.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={knockout} className="item" alt="Knockout" />
+              </a>
+            </li>
+            <li className="list-inline-item redux">
+              <a
+                href="https://redux.js.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={redux} className="item" alt="Redux" />
+              </a>
+            </li>
+            <li className="list-inline-item selenium">
+              <a
+                href="https://www.selenium.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={selenium} className="item" alt="Selenium" />
+              </a>
+            </li>
+            <li className="list-inline-item webpack">
+              <a
+                href="https://webpack.js.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={webpack} className="item" alt="Webpack" />
+              </a>
+            </li>
+            <li className="list-inline-item docker">
+              <a
+                href="https://www.docker.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={docker} className="item" alt="Docker" />
+              </a>
+            </li>
+            <li className="list-inline-item list-inline-item-90 jquery">
+              <a
+                href="https://jquery.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={jquery} className="item" alt="Jquery" />
+              </a>
+            </li>
           </ul>
 
           <div className="subheading mb-3">Workflow</div>
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-check"></i>
-              Develop highly scalable, cross browser compatible and WCAG
-              complaint applications
+              Develop highly responsive, scalable and cross browser compatible
+              web applications
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
@@ -643,8 +748,8 @@ const IndexPage = () => (
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Monitoring website performance and rectifying front-end-related
-              issues and providing hotfixes for clients.
+              Monitoring website performance and rectifying issues and providing
+              hotfixes for clients.
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
@@ -662,7 +767,7 @@ const IndexPage = () => (
 
             <li>
               <i className="fa-li fa fa-check"></i>
-              Cross Functional Teams
+              Platform Integration testing &amp; Debugging
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
@@ -716,91 +821,183 @@ const IndexPage = () => (
       <hr className="m-0" />
 
       <section
-        className="resume-section p-3 p-lg-5 d-flex justify-content-center"
+        className="resume-section p-3 p-lg-5 d-flex align-items-center"
         id="experience"
       >
         <div className="w-100">
-          <h2 className="mb-5">
-            Professional Experience -{' '}
-            <span className="text-primary">Pegasystems Inc</span>
-          </h2>
+          <h2 className="mb-5">PROFESSIONAL EXPERIENCE</h2>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+            <div className="resume-content">
+              <p style={{ marginBottom: '0px' }}>
+                <b>ORACLE, Hyderabad – </b> Member of Technical Staff
+              </p>
+              <p className="date_grey_bold">March 2021 - PRESENT</p>
+            </div>
+          </div>
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between ">
+            <div className="resume-content">
+              <p style={{ marginBottom: '0px' }}>
+                <b>Pega Systems, Hyderabad – </b> Front End Developer{' '}
+              </p>
+              <p className="date_grey_bold">July 2017 – February 2021</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr className="m-0" />
+
+      <section
+        className="resume-section p-3 p-lg-5 d-flex justify-content-center"
+        id="project_profile"
+      >
+        <div className="w-100">
+          <h2 className="mb-5">Project profile</h2>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">REACT Open source project</h3>
-              <div className="subheading mb-3">FrontEnd Developer</div>
+              <h3 className="mb-0">
+                ORACLE, Hyderabad -{' '}
+                <span className="text-primary">Member of Technical Staff</span>
+              </h3>
               <p>
-                <b>Description:</b> This is an open source react components
-                library currently in development phase. It is a visual design
-                system and UI component collection. The main goal is to empower
-                application developers in their pursuit to create engaging and
-                rewarding user experiences.
+                <b>Skills Used:</b> Oracle JET, JavaScript, Knockout JS, Require
+                JS, HTML5, SCSS, jQuery, React JS, Selenium, Jasmine, Jest, DOM,
+                REST API, JSON, MVVM Pattern.
               </p>
               <p>
-                <b>Technologies:</b> REACT, Typescript, Styled components, JEST,
-                GIT.
+                <b>Projects:</b> Pack, Landing Page API
+              </p>
+              <p>
+                <b>Roles and Responsibilities:</b>
+                <ul>
+                  <li>
+                    Developed responsive, accessible and scalable JET components
+                    and React UI components.
+                  </li>
+                  <li>
+                    Integration of the components into different applications.
+                  </li>
+                  <li>
+                    Test Automation suits using Jasmine, Jest and Selenium.
+                  </li>
+                  <li>
+                    Assisting on usability and accessibility of various
+                    features.
+                  </li>
+                  <li>
+                    Provide support for Adoption teams, Participation in Code
+                    reviews and Design discussions.
+                  </li>
+                  <li>
+                    Running AUDIT, CVE security issues on various applications
+                    and fixing them.
+                  </li>
+                </ul>
               </p>
             </div>
-            {/* <div className="resume-date text-md-right">
-              <span className="text-primary">March 2013 - Present</span>
-            </div> */}
+            <div className="resume-date text-md-right">
+              <span className="date_grey_bold">March 2021 – Present</span>
+            </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">
-                Field Service Management – Dispatcher portal
+                Pega Systems, Hyderabad -{' '}
+                <span className="text-primary">Front End Developer</span>
               </h3>
-              <div className="subheading mb-3">FrontEnd Developer</div>
-              <p>
-                <b>Description:</b> Enables office and field operations to
-                manage the entire customer interaction lifecycle, from first
-                phone call to request close. As a dispatcher, he can view all
-                the multiple field workers and their scheduled work orders in
-                one page and also can optimize the trip.
-              </p>
-              <p>
-                <b>Technologies:</b> Google Maps API, Vis JS, Moment JS, Design
-                patterns, Prototype, JavaScript, JSON.
-              </p>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">Customer Service Portal</h3>
-              <div className="subheading mb-3">
-                Associate FrontEnd Developer
+              <div>
+                <h3>REACT COSMOS</h3>
+                <p>
+                  <b>Skills Used:</b> REACT, Typescript, Styled components,
+                  JEST, GIT.
+                </p>
+                <p>
+                  <b>Roles and Responsibilities:</b>
+                  <ul>
+                    <li>
+                      Building reusable responsive UI components using REACT and
+                      Styled Components. Integration in container components (
+                      Storybook ). Type checking using TYPESCRIPT.
+                    </li>
+                    <li>
+                      Unit test for the components using JEST. Reviewing the
+                      code and participation in design discussions.
+                    </li>
+                    <li>
+                      Provide support for Adoption teams, Participation in Code
+                      reviews and Design discussions.
+                    </li>
+                    <li>
+                      Consulting and troubleshooting support for all the
+                      adoption teams in the department.
+                    </li>
+                  </ul>
+                </p>
               </div>
-              <p>
-                <b>Description:</b> Customer Service deals with managing
-                different types of interactions with customer and provides
-                unified digital messaging platform. dynamic case management.
-                This is the core application which is inherited by 4
-                applications (Comms, Insurance, Health care, Finance services)
-              </p>
-              <p>
-                <b>Technologies:</b> Javascript, jQuery, Javascript libraries,
-                HTML, CSS.
-              </p>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
-            <div className="resume-content">
-              <h3 className="mb-0">GCS Portal</h3>
-              <div className="subheading mb-3">
-                Associate FrontEnd Developer
+              <div>
+                <h3>FSM DISPATCHER PORTAL</h3>
+                <p>
+                  <b>Skills Used:</b> Google Maps API, Vis JS, Moment JS, Design
+                  patterns, Prototype, JavaScript, JSON.
+                </p>
+                <p>
+                  <b>Roles and Responsibilities:</b>
+                  <ul>
+                    <li>
+                      Building reusable responsive UI components using REACT and
+                      Styled Components. Integration in container components (
+                      Storybook ). Type checking using TYPESCRIPT.
+                    </li>
+                    <li>
+                      Unit test for the components using JEST. Reviewing the
+                      code and participation in design discussions.
+                    </li>
+                    <li>
+                      Provide support for Adoption teams, Participation in Code
+                      reviews and Design discussions.
+                    </li>
+                    <li>
+                      Consulting and troubleshooting support for all the
+                      adoption teams in the department.
+                    </li>
+                  </ul>
+                </p>
               </div>
-              <p>
-                <b>Description:</b> GCS application is used by customers to
-                create any service request who are facing issues with Pega
-                products and also used by internal engineers to track and assign
-                the service requests.
-              </p>
-              <p>
-                <b>Technologies:</b> PRPC, Javascript, HTML, CSS.
-              </p>
+              <div>
+                <h3>CUSTOMER SERVICE AND GCS PORTAL</h3>
+                <p>
+                  <b>Skills Used:</b> JavaScript, PRPC, jQuery, JavaScript
+                  libraries, HTML, CSS.
+                </p>
+                <p>
+                  <b>Roles and Responsibilities:</b>
+                  <ul>
+                    <li>
+                      Part of two member team, responsible for UI Refactoring -
+                      Revamping the entire old portal using best practices of
+                      JavaScript, PRPC.
+                    </li>
+                    <li>
+                      Implemented Custom controls, Timeline views using
+                      JavaScript and jQuery.
+                    </li>
+                    <li>
+                      Integration of Notification channels, CK Editor plugins
+                      using PRPC and JavaScript libraries.
+                    </li>
+                    <li>
+                      Monitoring website performance and fixing issues and
+                      providing hotfixes to the client.
+                    </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="date_grey_bold">July 2017 – February 2021</span>
             </div>
           </div>
         </div>
@@ -904,7 +1101,7 @@ const IndexPage = () => (
             <div className="resume-content">
               <h3 className="mb-0">Vasavi College of Engineering</h3>
               <div className="subheading mb-3">Bachelor of Engineering</div>
-              <div>Computer Science &amp; Engineering - 81%</div>
+              <div>Computer Science &amp; Engineering - 80%</div>
             </div>
             <div className="resume-date text-md-right">
               <b>
